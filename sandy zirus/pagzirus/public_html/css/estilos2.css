@@ -1,0 +1,105 @@
+
+body{
+    background: url( ../img/bgBody.jpg) repeat-x;
+}
+
+ .red-icono{
+    width: 50px;
+}
+
+/* aplica a resolucion mayor */
+/*==========  Mobile First Method  ==========*/
+ 
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px){
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px){
+    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px){
+    ul li{
+        float: left;
+    }
+    
+    .img-logo{
+        width: 165px;
+        height: 180px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px){
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px){
+
+}
+
+
+/*Aplica a resolucion menor a*/
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px){
+    
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px){
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px){
+    ul li{
+        float: none;
+    }
+    
+    .navbar-nav {
+        margin: 0px;
+    }
+    
+    .primer-menu ul li a {
+        padding: 0 10px;
+        display: inline;
+        font-weight: bold;
+        font-size: 16px;
+        color: white !important;
+        border-right: none;       
+    }
+    
+    .vertical-list div img{
+        margin-top: 10px;
+    }
+    
+    .img-logo{
+        width: 150px;
+        //height: 180px;
+    }   
+   
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px){
+
+}
+ 
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px){
+
+}
+
+@media(max-width:650px)
+{
+    div.vertical-list{
+        float: none;
+    }
+}
+
