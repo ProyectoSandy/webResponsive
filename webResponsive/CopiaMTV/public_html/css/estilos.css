@@ -1,0 +1,253 @@
+body{
+    font-family: 'Open Sans',arial,sans-serif;
+    background-color: #255625;
+}
+
+.container-fluid, .container{
+    background-color: #efefef;
+    max-width: 960px;
+    padding: 0;
+}
+
+.row{
+    margin: 0;
+}
+
+.menu{
+    background-color: #321432;
+}
+
+h4{
+    background-color: #321432;
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+}
+
+ul{
+    padding: 0;
+}
+
+ul li{
+    text-decoration: none;
+    list-style: none;
+    float: left;
+    background-color: white !important;//
+    border-bottom: 1px solid #19c8c8;
+    padding-top: 10px;
+}
+
+a{
+    color: #5b485a;
+    font-weight: bold;
+    font-size: 11px;
+    //letter-spacing: 1px;
+}
+
+ul li a img{
+    width: 70px;
+    height: 53px;
+}
+
+
+.footer{
+    color: gray;    
+    background: url(../img/footer.gif) #0E0E0E repeat-x;
+}
+
+.barra-celeste{
+    background-color: #19c8c8;
+    font-size: 10px;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.barra-celeste a{
+    text-decoration: none;
+    background-color: #19c8c8;
+    font-size: 11px;
+    font-weight: bold;
+    color: black;
+    
+}
+
+.barra-celeste .boton{
+    float: right;
+    padding-right: 10px;
+}
+
+.video{
+    width: 300px;
+    height: 255px;
+}
+
+.vertical-list h6{    
+    font-weight: bold;
+}
+
+.vertical-list p{    
+    font-size: 12px;
+}
+
+h4,.slide{
+    font-style: italic;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.slide{
+    border-top: 1px solid #19c8c8;
+    padding: 5px 10px;
+}
+
+.lateral-izq{
+    padding-left: 10px;
+}
+
+.logo{
+    background: url(../img/logo.png) no-repeat 0 0;
+    width: 92px;
+    height: 64px;
+    margin-top: 10px;
+}
+
+.esp-lateral{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.primer-menu ul li a{
+    padding:0 10px;
+    display: inline;
+    font-weight: bold;
+    font-size: 12px;
+    color: white !important;
+    border-right: 1px solid #19c8c8;
+}
+
+.segundo-menu ul li a{
+    color: white;
+    font-size: 28px;
+    display: inline;
+    font-weight: bold;    
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 4px solid #19c8c8;
+    word-spacing: 10px;
+    letter-spacing: 1px;
+}
+
+.segundo-menu ul li, .primer-menu ul li {
+    background-color: transparent !important;
+}
+
+.barra-blanca{
+    height: 140px;
+}
+
+.col-sm-6{
+    padding: 0;
+}
+
+p{
+    font-size: 12px;
+}
+
+.navbar-toggle {
+    background-color: rgb(220, 141, 141)
+}
+
+.navbar-default{
+    background-color: transparent;
+}
+
+.navbar{
+    border: none;
+    min-height: 20px;
+}
+
+/*==========  Mobile First Method  ==========*/
+ 
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px){
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px){
+    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px){
+    
+    
+    
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px){
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px){
+
+}
+
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px){
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px){
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px){
+    ul li{
+        float: none;
+    }
+    
+    .navbar-nav {
+        margin: 0px;
+    }
+    
+    .primer-menu ul li a {
+        padding: 0 10px;
+        display: inline;
+        font-weight: bold;
+        font-size: 16px;
+        color: white !important;
+        border-right: none;       
+    }
+    
+    .vertical-list div img{
+        margin-top: 10px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px){
+
+}
+ 
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px){
+
+}
+
+@media(max-width:650px)
+{
+    div.vertical-list{
+        float: none;
+    }
+}

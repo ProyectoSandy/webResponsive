@@ -1,0 +1,629 @@
+/*
+*  CSS para el sitio www.tuziruspizza.com
+*  Zirus Pizza - Todos los derechos reservados
+*  Autor: Eduardo Pérez, Diana Alvarez
+*  website: www.eperez.net
+*/
+@charset "utf-8";
+@import 'reset.css';
+@import 'text.css';
+/********************************************************************
+Elementos Comunes
+body, a, h1, h2, h3, h4, h5, img, div y clases reutilizables
+*********************************************************************/
+body{
+	background:url(../img/bgBody.jpg) repeat-x;
+	color:#444;
+	}
+	
+/*Alineacion de objetos
+*******************************************/
+.algIzq { text-align:left; }
+.algDer { text-align:right; }
+.algCen { text-align:center; }
+.algJus { text-align:justify; }
+/*Separacion de objetos
+*******************************************/
+
+/*Margenes arriba*/
+.mrgAlto5 { margin-top:5px; }
+.mrgAlto10 { margin-top:10px; }
+.mrgAlto15 { margin-top:15px; }
+.mrgAlto20 { margin-top:20px; }
+
+.pdgAlto10 { padding-top:10px;}
+.pdgBajo10 { padding-bottom:10px;}
+/*Margenes abajo*/
+.mrgBajo10 { margin-bottom:10px; }
+.mrgBajo15 { margin-bottom:15px; }
+.mrgBajo20 { margin-bottom:20px; }
+.mrgBajo30 { margin-bottom:30px; }
+/*Margenes izq*/
+.mrgIzq10 { margin-left:10px; }
+.mrgIzq15 { margin-left:15px; }
+.mrgIzq20 { margin-left:20px; }
+/*Margenes der*/
+.mrgDer10 { margin-right:10px; }
+.mrgDer15 { margin-right:15px; }
+.mrgDer20 { margin-right:20px; }
+.mrgDer30 { margin-right:30px; }
+/*Capas flotantes
+*******************************************/
+.fltIzq { float:left; }
+.fltDer { float:right; }
+/*Textos en Negrita
+*******************************************/
+.txtNeg { font-weight:700; }
+/*Manejo de enlaces
+*******************************************/
+
+/*Enlaces
+*******************************************/
+a{
+	color:#444;
+	text-decoration:none;
+	}
+a:hover{color:#8e2c2d;}
+
+.enlaceRojo{
+	color:#8e2c2d;
+	text-decoration:underline;
+	}
+.enlaceAmarillo{
+	color:#faba03;
+	text-decoration:none;
+	}
+a.enlaceAmarillo:hover{color:#fff;}	
+a.goUp{
+	background:url(../img/up.png) left center no-repeat;
+	padding-left:20px;
+	}
+a.verMas{
+	background:url(../img/verMas.png) right center no-repeat;
+	padding-right:20px;
+	}
+	
+/*Paleta de colores
+*******************************************/
+.amarillo{ color:#faba03;}
+.blanco{ color:#fff;}
+/********************************************************************
+Cabeza
+*********************************************************************/
+#cabeza{
+	height:240px;
+	margin:0 10px 20px 10px;
+	}
+#infoTel{
+	background:url(../img/fondoTelTop.png) top center no-repeat;
+	height:64px;
+	width:380px;
+	margin:5px 0;
+	}
+<!--
+/** 
+ * Slideshow style rules.
+ */
+#slideshow {
+	margin:0 auto;
+	width:380px;
+	height:64px;
+	/*background:transparent url(../img/bg_slideshow.jpg) no-repeat 0 0;*/
+	position:relative;
+}
+#slideshow #slidesContainer {
+  margin:0 auto;
+  width:380px;
+  height:64px;
+  overflow:auto; /* allow scrollbar */
+  position:relative;
+}
+#slideshow #slidesContainer .slide {
+  margin:0 auto;
+  width:360px; /* reduce by 20 pixels of #slidesContainer to avoid horizontal scroll */
+  height:64px;
+}
+.slide{
+	color:#fff;
+	font-size:20px;
+	font-weight:700;
+	text-align:center;
+	}
+.dirCiu{
+	font-size:13px;
+	}
+.iconTel{
+	background:url(../img/iconTel.png) left center no-repeat;
+	padding-left:25px;
+	}
+
+/** 
+ * Slideshow controls style rules.
+ */
+.control {
+  display:block;
+  width:39px;
+  height:263px;
+  text-indent:-10000px;
+  position:absolute;
+  cursor: pointer;
+}
+#leftControl {
+  top:73px;
+  right:-5px;
+  background:transparent url(../img/controlTelIzq.png) no-repeat 0 0;
+}
+#rightControl {
+  top:73px;
+  right:-28px;
+  background:transparent url(../img/controlTelDer.png) no-repeat 0 0;
+}
+
+#menuNav{
+	background:url(../img/lineaMenuNavTop.png) bottom left repeat-x;
+	padding-bottom:18px;
+	margin:20px 0 10px 0;
+	}
+#menuNav ul{
+	margin:0; padding:0;
+	}	
+#menuNav ul li{
+	float:left;
+	list-style:none;
+	margin:0; padding:0;
+	}
+#menuNav a{
+	color:#fff;
+	font-size:16px;
+	font-weight:700;
+	text-decoration:none;
+	text-transform:uppercase;
+	text-align:center;
+	padding:10px 15px 15px 10px;
+	text-shadow:#4c0d04 0px 2px 1px;
+	}
+	#menuNav a:hover, a#activo{ /*Activo es para identificar la seccion donde esta*/
+		background:url(../img/decoradoMenuNavTop.png) bottom center no-repeat;
+		color:#faba03;
+		}
+#horario{
+	color:#FFF;
+	font-size:14px;
+	margin-top:5px;
+	text-shadow:#4c0d04 0px 2px 1px;
+	}
+	#horario span{color:#faba03;}
+
+
+
+
+/********************************************************************
+Banner
+*********************************************************************/
+#banner{
+	background:url(../img/fondoBanner.png) top center no-repeat;
+	height:340px;
+	}
+	#banner a{
+		margin:4px 0 0 4px;
+		display:block;
+		}
+		
+h2.tut{
+	color:white;
+	font-size:22px;
+	padding:5px 0 0 58px;
+	text-shadow:#444 0px 2px 1px;
+}
+
+#twitter-ticker{
+	width:220px;
+	height:340px;
+	background:url(../img/slickbg.png) no-repeat #f5f5f5;
+	color:#444;	
+	-moz-border-radius:10px 10px 6px 6px;
+	-khtml-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius:6px;
+
+	text-align:left;
+}
+
+#tweet-container{
+	height:230px;
+	width:auto;
+	overflow:hidden;
+}
+
+#twitIcon{
+	position:absolute;
+	top:-25px;
+	left:-10px;
+	width:64px;
+	height:64px;
+}
+
+#top-bar{
+	height:45px;
+	background:url(../img/top_bar.png) repeat-x;
+	border-bottom:1px solid white;
+	position:relative;
+	margin-bottom:8px;
+	-moz-border-radius:6px 6px 0 0;
+}
+
+/********************************************************************
+Lateral
+*********************************************************************/
+.titModulo{
+	background:url(../img/lineaMenuNavTop.png) bottom left repeat-x;
+	padding-bottom:10px;
+	margin-bottom:20px;
+	}
+.titModulo h2{
+	background:url(../img/hojaMenuNavTopIzq.png) left center no-repeat;
+	color:#FFF;
+	font-size:16px;
+	font-weight:700;
+	padding-left:45px;
+	margin:0;
+	text-transform:uppercase;
+	text-shadow:#4c0d04 0px 2px 1px;
+	}
+.menuVer ul{
+		list-style-image:url(../img/listStyleMenuVertical.png);
+	}
+.menuVer ul li{
+	display:bock;
+	padding:0;
+	margin:0 0 10px 20px;
+	}
+.menuVer a{
+	color:#fff;
+	display:bock;
+	font-size:14px;
+	text-decoration:none;
+	text-shadow:#000 0px 2px 1px;
+	}
+	.menuVer a:hover{color:#faba03; }
+
+/********************************************************************
+Contenido
+*********************************************************************/
+#marcoArribaContenido, #marcoAbajoContenido{
+	height:10px;
+	width:700px;
+	} 
+#marcoArribaContenidoEvento, #marcoAbajoContenidoEvento{
+	height:10px;
+	width:940px;
+	} 
+#marcoArribaContenido{background:url(../img/marcoArribaContenido.png) top center no-repeat;}
+#marcoAbajoContenido{background:url(../img/marcoAbajoContenido.png) top center no-repeat;}
+#marcoArribaContenidoEvento{background:url(../img/marcoArribaContenidoEventoDetalle.png) top center no-repeat;}
+#marcoAbajoContenidoEvento{background:url(../img/marcoAbajoContenidoEventoDetalle.png) top center no-repeat;}
+#contenido{
+	background:#FFF;
+	padding-bottom:10px;}
+.rowProm{margin-bottom:20px; overflow:hidden;}
+.celProm{
+	float:left;
+	margin:0 11px;
+	width:210px;
+	}
+.celProm img{
+	border:#acacac solid 1px;
+	margin-bottom:10px;
+	}
+.verDetalle a{
+	color:#a50706;
+	float:left;
+	text-align:left;
+	text-decoration:underline;
+	}
+.fondoPrecio{
+	background:url(../img/fondoPrecio.png) top center no-repeat;
+	color:#fff;
+	font-size:20px;
+	font-weight:700;
+	float:right;
+	height:31px;
+	line-height:31px;
+	text-align:center;
+	overflow:hidden;
+	width:113px;
+	}
+/********************************************************************
+Menu Landing
+*********************************************************************/
+.catMenu{
+	float:left;
+	margin:0 10px 20px 10px;
+	width:215px;
+	}
+.catMenuImg{
+	border:#ccc solid 2px;
+	width:211px;
+	height:211px;
+	overflow:hidden;
+	}
+.imgSombraMenu{
+	background:url(../img/sombraImgMenu.jpg) top center no-repeat;
+	height:8px;
+	width:215px;
+	}
+.catMenuTitulo{
+	font-size:13px;
+	font-weight:700;
+	text-align:center;
+	}
+	.catMenuTitulo a{
+		color:#444;
+		text-decoration:none;
+		}
+	.catMenuTitulo a:hover{color:#8e2c2d;}
+
+/********************************************************************
+Listado
+*********************************************************************/
+#contenidoLista{
+	background-color:#FFF;
+	padding:10px 0;}
+#contenidoLista h2{
+	color:#8e2c2d;
+	font-size:18px;
+	font-weight:700;
+	margin:0; padding:0;
+	}
+.platoLista{
+	border-bottom:#f2f2f2 solid 2px;
+	margin-bottom:20px;
+	padding-bottom:20px;
+	overflow:hidden;
+	}
+.tipoPlato{font-size:11px;}
+.tipoPlato a{color:#999;}
+	.tipoPlato a:hover{color:#8e2c2d;}
+.ingredientes{
+	margin:10px 10px 10px 0;
+	text-align:justify;
+	}
+.precios{display:table; vertical-align:middle;}
+.fila{ display:table-row;}
+.cel225{
+	display:table-cell;
+	float:left;
+	font-size:14px;
+	text-align:center;
+	outline:#fff solid 1px;
+	width:225px;
+	}
+.cel75{
+	display:table-cell;
+	float:left;
+	text-align:center;
+	outline:#fff solid 1px;
+	width:75px;
+	vertical-align:middle;
+	}
+.cel75Tit{
+	font-size:10px;
+	font-weight:700;
+	}
+.trad{background-color:#ffefb3;}
+.tradTit{ background-color:#f58634;}
+.sici{background-color:#fded95;}
+.trad, .sici{padding:5px 0;}
+
+.imgResize{ 
+	height:auto;
+	width:210px;
+	}
+
+/* Paginador
+***************************************/
+.pages {
+    clear: both;
+    float: right;
+    padding: 10px;
+    margin: 0;
+	}
+
+.pages a, .pages span {
+	color:#444;
+    display: block;
+    float: left;
+    padding: 0.2em 0.5em;
+    margin-right: 0.1em;
+    border: 1px solid #fff;
+    background: #fff;
+	}
+
+.pages span.current {
+    border: 1px solid #8c2626;
+    font-weight: bold;
+    background: #8D2009;
+    color: #fff;
+	}
+
+.pages a {
+    border: 1px solid #ccc;
+    text-decoration: none;
+	}
+
+.pages a:hover {
+    border-color: #8D2009;
+	}
+
+.pages a.nextprev {
+    /*font-weight: bold;*/
+	}
+
+.pages span.nextprev {
+    color: #666;
+	}
+
+.pages span.nextprev {
+   	border: 1px solid #ccc;
+    color: #999;
+	}
+
+.pages .nextprev-next {
+	border: 1px solid #8c2626;
+    float: right;
+	}
+
+/********************************************************************
+Eventos
+*********************************************************************/
+
+/*Listado de los eventos
+*****************************************/
+.tituloListaEvento{
+	background-color:#ffefb3;
+	border-bottom:#FFF solid 1px;
+	padding:10px;
+	}
+.tituloListaEvento h1{
+	color:#8e2c2d;
+	font-size:14px;
+	padding:0;
+	margin:0;
+	}
+.fechaListaEvento{
+	font-size:10px;
+	}
+.contenidoListaEvento{
+	background-color:#fded95;
+	padding:10px;
+	margin-bottom:10px;
+	}
+
+#contenidoEvento h2{
+	color:#8e2c2d;
+	padding:0;
+	margin:0;
+	}
+.txtLocalizador{
+	font-size:10px;
+	}
+
+/********************************************************************
+Sucursales
+*********************************************************************/
+.colIzqCiudad{
+	background-color:#ffefb3;
+	font-size:13px;
+	font-weight:700;
+	outline:#fff solid 1px;
+	vertical-align:text-top;
+	padding:10px;
+	width:130px;
+	}
+.colDerDatos{
+	background-color:#fded95;
+	font-size:12px;
+	outline:#fff solid 1px;
+	padding:10px;
+	vertical-align:text-top;
+	}
+
+.txtDireccion{
+	font-family:18px;
+	font-weight:700;
+	}
+.txtTelefono{font-size:14px;}
+.txtHorario{font-size:12px;}
+a.mapaUbica{
+	background:url(../img/map.png) left center no-repeat;
+	color:#8e2c2d;
+	font-size:11px;
+	font-weight:400;
+	margin:0 5px;
+	padding-left:20px;
+	}
+
+/********************************************************************
+Promociones
+*********************************************************************/
+
+img.promos{
+	border:#CCC solid 2px;
+	float:left;
+	height:350px;
+	margin:0 9px 20px 10px;
+	width:210px;
+	}
+
+/********************************************************************
+Contactenos
+*********************************************************************/
+#contactoForm label{
+	color:#666;
+	display:block;
+	}
+#contactoForm label span{ color:#8e2c2d;}
+#contactoForm input[type="text"]{width:360px;}
+#contactoForm textarea{
+	height:100px;
+	width:360px;
+	}
+	
+#contactoForm button{
+	background:url(../img/botonEnviar.png) top center no-repeat;
+	border:none;
+	/*display:block;*/
+	height:33px;
+	text-indent:99999px;
+	width:115px;
+	}	
+/*
+Lateral de contacto
+*************************************/
+.listaRestaurante{color:#fff;}
+
+	
+/********************************************************************
+Pie de pagina
+*********************************************************************/
+#menuFooter, #copy{
+	color:#fff;
+	text-shadow:#000 0px 2px 1px;
+	padding-bottom:20px;
+	}
+#menuFooter ul{
+	list-style:none;
+	margin:0; padding:0;
+	}
+#menuFooter ul li{
+	float:left;
+	margin:0; padding:0;
+	}
+#menuFooter ul li a{
+	color:#fff;
+	font-size:13px;
+	margin-right:20px;
+	text-decoration:none;
+	text-shadow:#000 0px 2px 1px;
+	}
+	#menuFooter ul li a:hover{color:#faba03;}
+	
+
+
+/********************************************************************
+Pop up detalle 
+*********************************************************************/
+.datoDetalle{
+	overflow:hidden;
+	width:530px;
+	}
+.imgPlato{
+	float:left;
+	width:210px;
+	margin-right:20px;
+	}
+.precioInfo{
+	float:left;
+	width:300px;
+	}
+.precioInfo h2{color:#8e2c2d;}
