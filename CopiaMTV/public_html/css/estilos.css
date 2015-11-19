@@ -212,7 +212,7 @@ p{
 }
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px){
+@media only screen and (max-width : 767px){
     ul li{
         float: none;
     }
@@ -232,6 +232,15 @@ p{
     
     .vertical-list div img{
         margin-top: 10px;
+    }
+    
+    article div img, .listas-img{
+        width: 100%;
+        height: auto;
+    }
+    
+    article{
+        //border-bottom: 1px solid #19c8c8;
     }
 }
 

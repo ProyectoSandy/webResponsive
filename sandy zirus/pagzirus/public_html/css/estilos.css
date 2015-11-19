@@ -135,30 +135,26 @@ ul li{
 .espacioTwiter{
     background: url(../img/slickbg.png) no-repeat #f5f5f5;
     height: 280px;
-    bottom: 33px;
-    position: relative;
+    margin-bottom: 40px;
+    /* width: 20px; */
 }
 
 .tituloTwitter{
     background: url(../img/top_bar.png) repeat-x;
     max-width: 220px;
-    position: relative;
-    top: 40px;
+    margin-top: 40px;
+    margin-left: -3px;
 }
 
 .tituloTwitter img{
-    position: relative;
-    bottom: 30px;
-    right: 10px;
+    
 }
 
 .tituloTwitter h2{
     font-size: 22px;
     color: white;
-    position: relative;
-    bottom: 75px;
-    left: 60px;
     font-weight: bold;
+    /* margin-bottom: 40px; */
 }
 .fondoBaner{
     background: url(../img/fondoBanner.png) top center no-repeat;
@@ -180,20 +176,26 @@ ul li{
 img.promos {
     border: #CCC solid 2px;
     float: left;
-    margin: 0 9px 20px 10px;
 }
 
 .redeSociales div {
     float: right;
-    position: relative;
-    top: 70px;
-    right: 35px;
 }
 
 .menulateral ul li a{
     color: white;
     display: table-row;
     font-size: 14px;
+    line-height: 40px;
+}
+
+.menulateral nav{
+    margin-top: 30px;
+}
+
+.titulomenu{
+    height: 40px;
+    background: url(../img/lineaMenuNavTop.png) bottom left repeat-x;
 }
 
 h5 {
@@ -201,7 +203,21 @@ h5 {
     color: white;
     font-weight: bold;
     float: right;
-    background: url(../img/lineaMenuNavTop.png) bottom left repeat-x;
+    margin-right: 25px;
+}
+
+.hojita{
+    
+margin-top: 10px;
+}
+
+.titmenulat{
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
+.pajarito{
+   
 }
 
 @media(max-width:767px){}
