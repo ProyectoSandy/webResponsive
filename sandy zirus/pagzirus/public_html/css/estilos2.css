@@ -71,7 +71,8 @@ ul li a:hover{
     ul li{
         padding-left: 8px;
         padding-right: 8px;
-    }
+    }   
+  
 }
 
 /* Large Devices, Wide Screens */
@@ -147,7 +148,9 @@ ul li a:hover{
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px){
-
+    .icon-redes{
+        display: none;
+    }
 }
  
 /* Custom, iPhone Retina */
