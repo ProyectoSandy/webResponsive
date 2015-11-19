@@ -26,7 +26,12 @@ ul li a{
 }
 
 ul li:hover{
-	background-color:orange;
+    background-color:orange;    
+}
+
+ul li a:hover{
+   text-decoration: none;
+    color: white;    
 }
 
 .navbar-default{
@@ -60,7 +65,13 @@ ul li:hover{
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px){
-
+    ul{
+        float: right;
+    }
+    ul li{
+        padding-left: 8px;
+        padding-right: 8px;
+    }
 }
 
 /* Large Devices, Wide Screens */
