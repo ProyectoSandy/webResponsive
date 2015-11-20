@@ -28,7 +28,6 @@ body{
     font-weight: bold;
     font-size: 20px;
     float: right;
-    //right: 340px;
 }
 
 .menuarriba{
@@ -113,55 +112,7 @@ a {
 	background-color: transparent;
 	border:none;
 }
-/*.menuarriba nav{
-    max-width: 620px;
-    position: relative;
-    right: 40px;
-    top: 40px;
-    color: white;
-    
-}
 
-ul{
-    padding: 0px;
-}
-
-ul li{
-    display: inline;
-}
-
-.menuarriba ul li a{
-    text-decoration: none;
-    list-style: none;
-    float: left;
-    color: white;
-    padding-right: 2px;
-    padding-left: 2px;
-    font-size: 16px;
-    font-weight: bold;
-    background: url(../img/lineaMenuNavTop.png) bottom left repeat-x;
-    height: 40px;
-}
-
-.navbar-toggle {
-    background-color:#faba03;
-}
-
-.navbar-default{
-    background-color: transparent;
-}
-
-.navbar-collapse{
-    position: relative;
-    left: 10px;
-    
-}
-
-.navbar{
-    border: none;
-    min-height: 20px;
-}
-*/
 
 .espacioTwiter{
     background: url(../img/slickbg.png) no-repeat #f5f5f5;
@@ -241,16 +192,17 @@ img.promos {
     padding: 0;
 }
 
-.menulateral nav ul{
+.menulateral ul{
     list-style-image: url(../img/listStyleMenuVertical.png);
 }
 
-.menulateral nav{
+.menulateral{
     margin-top: 30px;
 }
 
 .titulomenu{
-    height: 40px;
+    height: 80px;
+    width: 140px;
     background: url(../img/lineaMenuNavTop.png) bottom left repeat-x;
     /* margin-top: 30px; */
     /* color: white; */
@@ -277,6 +229,8 @@ h5 ,.btnLateral {
 .hojita{
     
 margin-top: 10px;
+    
+/* float: left; */
 }
 
 .titmenulat{
@@ -305,27 +259,14 @@ margin-top: -40px;
 
 .piePagina p{
     color: white;
-    /* margin-left: 20; */
     padding-top: -4px;
     margin-top: auto;
 }
 
-.derechosReservados p{
-    
-margin-top: 50px;
-}
-/* aplica a resolucion mayor */
-/*==========  Mobile First Method  ==========*/
- 
-/* Custom, iPhone Retina */
-@media only screen and (min-width : 320px){
-    
+.derechosReservados p{ 
+    margin-top: 50px;
 }
 
-/* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px){
-    
-}
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px){
@@ -339,28 +280,51 @@ margin-top: 50px;
     }
 }
 
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 992px){
-
-}
-
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px){
 
-}
+    .contenidoImg{
+        background: #FFF;
+        padding-bottom: 10px;
+        width: 691px;
+        margin-right: 20px;
+        border-radius: 8px;
+    }
 
+    .promociones{
+        margin-bottom: px;
+        overflow: hidden;
+        /* margin-top: 22px; */
+        margin-left: 2px;
+        margin-right: -20px;
+    }
 
-/*Aplica a resolucion menor a*/
-/*==========  Non-Mobile First Method  ==========*/
+    img.promos {
+        border: #CCC solid 2px;
+        float: left;
+        margin-bottom: 10px;
+        margin-right: 13px;
+    }
 
-/* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px){
     
 }
 
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 992px){
 
+/* Medium Devices, Desktops */
+@media (min-width : 992px){
+
+    .contenidoImg {
+        background: #FFF;
+        padding-bottom: 10px;
+        min-width: 500px;
+        margin-right: 20px;
+        margin-top: 30px;
+        border-radius: 8px;
+    }
+    
+    .contenidoImg img{
+    margin-left: 10px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -368,21 +332,16 @@ margin-top: 50px;
     
     .firmaDominio p {
         color: white;
-        /* float: right; */
         margin-left: -1px;
         margin-top: 46px;
-        /* margin-right: 1px; */
     }
     
     .firmaDominio img{
-        
-margin-left: 50px;
-        
-margin-bottom: 30px;
+        margin-left: 50px;
+        margin-bottom: 30px;
     }
     
     .alineacion{
-        
         margin-left: 70px;
     }
     
@@ -461,17 +420,6 @@ margin-bottom: 30px;
 	}
 }
 
-/* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px){
-    
-   
-
-}
- 
-/* Custom, iPhone Retina */
-@media only screen and (max-width : 320px){
-
-}
 
 @media(max-width:650px)
 {
@@ -480,6 +428,50 @@ margin-bottom: 30px;
     }
 }
 
-@media(min-width:768px) {
+@media (min-width: 768px){
     
+    .alineacion{
+        margin-left: 70px;
+    }
+    
+    .contenidoImg {
+        background: #FFF;
+        padding-bottom: 10px;
+        width: 350px;
+        margin-right: 20px;
+        margin-top: 30px;
+        border-radius: 8px;
+        margin-left: 100px;
+    }
+    
+    .contenidoImg img{
+        margin-left: 8px;
+    }
+    
+    .lateral{
+        margin-left: -100px;
+    }
+    
+    .firmaDominio p {
+        color: white;
+        margin-top: 30px;
+        margin-right: -20px;
+    }
+    
+    .firmaDominio img{
+        margin-left: -30px;
+    }
+    
+    .telefonos{
+        margin-right: 40px;
+        font-weight: bold;
+        font-size: 20px;
+        float: right;
+    }
+    
+    .piePagina p{
+        color: white;
+        padding-top: -4px;
+        margin-top: auto;
+    }
 }
