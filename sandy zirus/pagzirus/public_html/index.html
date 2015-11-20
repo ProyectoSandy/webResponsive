@@ -8,22 +8,68 @@
         <link href="js/bootstrap.min.js" rel="stylesheet" type="text/css"/>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
-        
     </head>
     <body>
         <div class="container ">
             <div class="row col-xs-10 col-xs-offset-1">    
                 <!--BANNER-->
+                <div class="row banner">   
+                    
+                    <!--MENU E INFORMACION-->
+                    <div class="col-xs-12 ">                                            
+                        
+					
+                        <!--MENU-->
+                        <div class="row  navbar navbar-default" role="navigation">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#barra">
+                                  <span class="sr-only">Desplegar navegación</span>
+                                  <span class="icon-bar"></span>
+                                  <span class="icon-bar"></span>
+                                  <span class="icon-bar"></span>
+                                </button> 
+								<!--LOGO-->
+                                <div class="col-xs-3 col-sm-4 col-md-3">
+                                        <img class="img-logo" src="img/logozirus.png">
+                                </div>
+
+                                <!--REDES SOCIALES-->
+                                <div class="row redeSociales">
+                                        <div class="col-xs-5 col-sm-8"></div>
+                                        <div class="pull-right">
+                                                <img src="img/facebookIcon.png" class="red-icono">
+                                                <img src="img/twitterIcon.png" class="red-icono">
+                                        </div>
+                                </div>
+                            </div>
+							
+                            <nav id="barra" class="row navbar-collapse collapse">								
+                                <ul>
+                                    
+                                    <li><a>MENU</a></li>
+                                    <li><a>PROMOCIONES</a></li>
+                                    <li><a>EVENTOS</a></li>
+                                    <li><a>SUCURSALES</a></li>
+                                    <li><a>CONTACTENOS</a></li>
+                                </ul>
+                            </nav>			
+                        </div>
+                    </div>                    
+                </div>
                 
-                
-                <div class="row galeria">
-                    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 fondoBaner img-responsive">
-                        <img class="img-responsive" src="img/galeria1.jpg">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-9  fondoBaner img-responsive">
+                        <img class="img-responsive galeria" src="img/galeria1.jpg" alt="Responsive image">
+                        <img src="img/sombra9Col.png" class="img-responsive" alt="Responsive image">
                     </div>
                     <div class="hidden-xs hidden-sm col-md-3 col-lg-3  img-responsive" >
+                        <div class="pajarito row">
+                            <img class="img-responsive col-md-5 " alt="Responsive image" src="img/twitter_64.png">
+                        </div>
                         <div class="tituloTwitter row">
-                            <img class="img-responsive col-md-5 pajarito" src="img/twitter_64.png">
+                            
                             <h2 class="img-responsive col-md-7">@ziruspizza</h2>
                         </div>
                         <div class="espacioTwiter img-responsive">
@@ -31,16 +77,52 @@
                     </div>
                 </div>
                 
-                <div class="row">
+                <div class="row alineacion">
                     
-                    <div class="col-xs-5 col-sm-4 col-md-3 menulateral">
-                        <div class="titulomenu">
+                    <div class="col-xs-12 col-sm-4 col-md-3 ">
+                        <div id="wrapper" class="hidden-md hidden-lg hidden-sm">
+                            <!-- Sidebar -->
+                            <div id="page-content-wrapper">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-xs-12 titulomenu">
+                                            <img class="hojita" src="img/hojaMenuNavTopIzq.png">
+                                            
+                                            <a class=" btnLateral btn" data-toggle="collapse" data-target="#sidebar-wrapper" >NUESTRO MENÚ</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="sidebar-wrapper" class="menulateral collapse">
+                                <ul class="sidebar-nav">
+                                    
+                                    <li><a class="hidden-sm hidden-xs">Pizzas Gourmet y Fusión</a></li>
+                                    <li><a>Pizzas Tradicionales</a></li>
+                                    <li><a>Panzarottis Tradicionales</a></li>
+                                    <li><a class="hidden-sm hidden-xs">Panzarottis Gourmet y Fusion</a></li>
+                                    <li><a class="hidden-sm hidden-xs">Pie Pizza</a></li>
+                                    <li><a class="hidden-sm hidden-xs">Pockets</a></li>
+                                    <li><a>Pastas</a></li>
+                                    <li><a>Ensaladas</a></li>
+                                    <li><a>Sandwich</a></li>
+                                    <li><a>Hamburguesas</a></li>
+                                    <li><a>Mazorcada</a></li>
+                                    <li><a>Papas a la Francesa</a></li>
+                                    <li><a>Bebidas Heladas</a></li>
+                                    <li><a>Combo Infantil</a></li>
+                                    <li><a class="hidden-sm hidden-xs">NUEVAS Pizzas Rusticas tipo Europeo</a></li>
+                                    <li><a class="hidden-sm hidden-xs">NUEVAS Pizzas de mis Amigos</a></li>
+                                    <li><a class="hidden-sm hidden-xs">Cervezas</a></li>
+                                    <li><a class="hidden-sm hidden-xs">Jugos Naturales</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="titulomenu hidden-xs hidden-sm">
                             <img class="hojita" src="img/hojaMenuNavTopIzq.png">
                             <h5>NUESTRO MENÚ</h5>
                         </div>
-                        <nav>
+                        <div class="menulateral hidden-xs ">
                             <ul>
-                                <li></li>
                                 <li><a class="hidden-sm hidden-xs">Pizzas Gourmet y Fusión</a></li>
                                 <li><a>Pizzas Tradicionales</a></li>
                                 <li><a>Panzarottis Tradicionales</a></li>
@@ -60,19 +142,25 @@
                                 <li><a class="hidden-sm hidden-xs">Cervezas</a></li>
                                 <li><a class="hidden-sm hidden-xs">Jugos Naturales</a></li>
                             </ul>
-                        </nav>
+                        </div>
+                        <div>
+                            <img class="hidden-xs " src="img/imgIngredientes.png">
+                        </div>
+                        <div class="hojitasRojas col-xs-12">
+                            <img src="img/hojasRojas.png">
+                        </div>                            
                     </div>
                     
-                    <div class="col-xs-7 col-sm-8 col-md-9 contenidoImg img-responsive">
-                        <div class="Promociones img-responsive">
+                    <div class="col-xs-12 col-sm-8 col-md-9 center-block contenidoImg img-responsive ">
+                        <div class="Promociones img-responsive center-block">
                             <a href="#"><img class="promos img-responsive hidden-sm hidden-xs" src="img/promo1.jpg"></a>
                             <a href="#"><img class="promos img-responsive hidden-sm hidden-xs" src="img/promo2.jpg"></a>
                             <a href="#"><img class="promos img-responsive hidden-sm hidden-xs" src="img/promo3.jpg"></a>
                             <a href="#"><img class="promos img-responsive hidden-sm hidden-xs" src="img/promo4.jpg"></a>
                             <a href="#"><img class="promos img-responsive hidden-sm hidden-xs" src="img/promo5.jpg"></a>
                             <a href="#"><img class="promos img-responsive hidden-xs" src="img/promo6.jpg"></a>
-                            <a href="#"><img class="promos img-responsive" src="img/promo7.jpg"></a>
-                            <a href="#"><img class="promos img-responsive" src="img/promo8.jpg"></a>
+                            <a href="#"><img class="promos img-responsive hidden-xs" src="img/promo7.jpg"></a>
+                            <a href="#"><img class="promos img-responsive hidden-xs" src="img/promo8.jpg"></a>
                             <a href="#"><img class="promos img-responsive" src="img/promo9.jpg"></a>
                         </div>
                     </div>
@@ -80,26 +168,28 @@
                 </div>
                     
                 <div class="row">
-                    <div class="col-xs-8">
-                        <nav>
-                            <ul >
-                                <li><a> MENU</a></li>
-                                <li><a>  MENU</a></li>
-                                <li><a> PROMOCIONES</a></li>
-                                <li><a> EVENTOS</a></li>
-                                <li><a> SUCURSALES</a></li>
-                                <li ><a> CONTÁCTENOS</a></li>
-                            </ul>
-                        </nav>
-                        <p>ZirusPizza Todos los derechos reservados 2011</p>
+                    <div class="col-xs-7 piePagina">
+                        <div class="infoDireccion row hidden-xs">
+                            <p class="direccion row">Bucaramanga Calle 56 # 30-48</p>
+                            <img src="img/iconTel.png" class="imgTel">
+                            <p class="telefonos row">6448976 - 6474265 - 6435985</p>
+                        </div>
+                        <div class="derechosReservados">
+                            <p>ZirusPizza Todos los derechos reservados 2011</p>
+                        </div>
+                        
                     </div>
                     
-                    <div class="col-xs-4">
+                    <div class="col-xs-5 firmaDominio">
                         <p>Diseño y Desarrollo</p>
                         <img src="img/logo_dominio.png">
                     </div>
                 </div>   
             </div>    
         </div>
+        <script src="js/transacciones.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+        
     </body>
 </html>
