@@ -1,5 +1,6 @@
 body{
-    background: url( ../img/bgBody.jpg) repeat-x;
+    background: url( ../img/bgBody.jpg) repeat;
+    height: 100%;
 }
 
 
@@ -37,6 +38,9 @@ body{
     top: 60px;
 }
 
+ul{
+    padding: 0px;
+}
 
 .twitterIcon{
     position: absolute;
@@ -147,15 +151,18 @@ a {
     margin-left: -30px;
 }
 .fondoBaner{
-    background: url(../img/fondoBanner.png) top center no-repeat;
-    //max-height: 280px;
+    //background: url(../img/fondoBanner.png) top center no-repeat;//
+    max-height: 280px;
+}
+
+.fondoBaner img{
+    width: 100%;
 }
 
 .contenidoImg{
     background: #FFF;
     padding-bottom: 10px;
-    width: 691px;
-    margin-right: 20px;
+    //margin-right: 20px;
     border-radius: 8px;
 }
 
@@ -169,9 +176,7 @@ a {
 
 img.promos {
     border: #CCC solid 2px;
-    float: left;
-    margin-bottom: 10px;
-    margin-right: 13px;
+    width: 100%;
 }
 
 .redeSociales div {
@@ -181,28 +186,17 @@ img.promos {
 .menulateral ul li a{
     color: white;
     display: block;
-    font-size: 14px;
-    line-height: 30px;
-    /* float: left; */
-    margin-right: 20px;
-}
-
-.menulateral ul li{
-    margin: 0 0 0px 0px;
-    padding: 0;
+    font-size: 14px; 
+  
 }
 
 .menulateral ul{
     list-style-image: url(../img/listStyleMenuVertical.png);
 }
 
-.menulateral{
-    margin-top: 30px;
-}
-
 .titulomenu{
     height: 80px;
-    width: 140px;
+    /* width: 140px; */
     background: url(../img/lineaMenuNavTop.png) bottom left repeat-x;
     /* margin-top: 30px; */
     /* color: white; */
@@ -213,12 +207,12 @@ img.promos {
     margin-left: 20px;
 }
 
-h5 ,.btnLateral {
+h5{
     font-size: 17px;
     color: white;
     font-weight: bold;
-    float: right;
-    margin-right: 25px;
+    /* float: right; */
+    /* margin-right: 25px; */
 }
 
 .btn:hover{
@@ -278,6 +272,8 @@ margin-top: -40px;
         width: 165px;
         height: 180px;
     }
+    
+    
 }
 
 /* Large Devices, Wide Screens */
@@ -330,6 +326,19 @@ margin-top: -40px;
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px){
     
+    .btnLateral {
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+    }
+    .menulateral ul li a{
+        color: white;
+        display: block;
+        font-size: 15px;
+        line-height: 30px;
+        margin-right: 20px;
+    }
+    
     .firmaDominio p {
         color: white;
         margin-left: -1px;
@@ -342,21 +351,16 @@ margin-top: -40px;
     }
     
     .alineacion{
-        margin-left: 70px;
+        text-align: center;
     }
     
     .contenidoImg {
         background: #FFF;
         padding-bottom: 10px;
-        width: 260px;
         margin-right: 20px;
         margin-top: 30px;
         border-radius: 8px;
         /* align-content: center; */
-    }
-    
-    .fondoBaner{        
-        min-width: 280px;
     }
     
     .titulomenu {
@@ -430,28 +434,24 @@ margin-top: -40px;
 
 @media (min-width: 768px){
     
-    .alineacion{
-        margin-left: 70px;
-    }
     
     .contenidoImg {
         background: #FFF;
-        padding-bottom: 10px;
-        width: 350px;
-        margin-right: 20px;
-        margin-top: 30px;
+        //padding-bottom: 10px;
+        //width: 350px;
+        //margin-right: 20px;
+        //margin-top: 30px;
         border-radius: 8px;
-        margin-left: 100px;
+        //margin-left: 100px;
     }
     
-    .contenidoImg img{
-        margin-left: 8px;
+    img.promos {
+        border: #CCC solid 2px;
+        float: left;
+        margin-bottom: 10px;
+        margin-right: 13px;
+        height: 280px;
     }
-    
-    .lateral{
-        margin-left: -100px;
-    }
-    
     .firmaDominio p {
         color: white;
         margin-top: 30px;
@@ -474,4 +474,5 @@ margin-top: -40px;
         padding-top: -4px;
         margin-top: auto;
     }
+    
 }
