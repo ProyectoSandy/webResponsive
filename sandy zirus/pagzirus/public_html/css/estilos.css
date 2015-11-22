@@ -3,19 +3,11 @@ body{
     height: 100%;
 }
 
-
-.domicilio{
-    margin-top: 20px;
-    margin-left: 20px;
-    font-size: 10px;
-}
-
 .direccion{
     margin-right: 110px;
     font-weight: bold;
     font-size: 13px;
     float: right;
-    
 }
 
 .imgTel{
@@ -24,107 +16,20 @@ body{
     margin-left: 50px;
 }
 
-.telefonos{
-    margin-right: 40px;
-    font-weight: bold;
-    font-size: 20px;
-    float: right;
-}
 
-.menuarriba{
-    background-color: transparent; 
-    border-color: transparent;
-    position: relative;
-    top: 60px;
-}
-
-ul{
+ul li{
     padding: 0px;
 }
 
-.twitterIcon{
-    position: absolute;
-    float: right;
-}
-
-.facebookIcon{
-    margin-right: 5px;
-    float: left;
-}
-
-#parr{
-    //position: relative;
-    color: #faba03;
-    font-size: small;
-    /*float: right;
-    right: 320px;*/
-}
-a {
-    color: #faba03;
-    text-decoration: none;
-    /*position: relative;
-    left: 25px;*/
-    font-size: 13px;
-    //top: 20px;
-}
-.Direbanner{
-    background: url( ../img/fondoTelTop.png) top center no-repeat;
-    /*position: relative;
-    top: 40px;*/
-    max-height: 80px;
-    color: #FFFFFF;
-    //left: 155px;
-}
 .infoDireccion{
     background: url(../img/fondoTelTop.png) top center no-repeat;
-    margin-top: 30px;
-    margin-bottom: -40px;
-    margin-right: 200px;
 }
-
-
-.banLink{
-    /*position: relative;
-    top: 20px;
-    right: 280px;*/
-    float: right;
-}
-
-.red-icono{
-    width: 50px;
-}
-
-.menuarriba ul li{
-	padding-right:7px;
-	padding-top: 25px;
-	padding-bottom:10px;
-	//background-color:aqua;
-	border-bottom: 5px solid #FABA03;
-}
-
-.menuarriba ul li a{
-	font-size:15px;	
-	font-weight:bold;
-	color:white;
-}
-
-.menuarriba ul li:hover{
-	background-color:orange;
-}
-
-.navbar-default{
-	background-color: transparent;
-	border:none;
-}
-
 
 .espacioTwiter{
     background: url(../img/slickbg.png) no-repeat #f5f5f5;
     height: 300px;
     margin-bottom: 40px;
     margin-top: 10px;
-    /* padding-right: 42px; */
-    /* width: 280px; */
     margin-right: -2px;
     margin-left: -3px;
     border-bottom-left-radius: 10px;
@@ -139,39 +44,15 @@ a {
     margin-bottom: -10;
 }
 
-.tituloTwitter img{
-    
-}
-
 .tituloTwitter h2{
     font-size: 22px;
     color: white;
     font-weight: bold;
-    /* margin-bottom: 40px; */
     margin-left: -30px;
-}
-.fondoBaner{
-    //background: url(../img/fondoBanner.png) top center no-repeat;//
-    max-height: 280px;
 }
 
 .fondoBaner img{
     width: 100%;
-}
-
-.contenidoImg{
-    background: #FFF;
-    padding-bottom: 10px;
-    //margin-right: 20px;
-    border-radius: 8px;
-}
-
-.promociones{
-    margin-bottom: px;
-    overflow: hidden;
-    /* margin-top: 22px; */
-    margin-left: 2px;
-    margin-right: -20px;
 }
 
 img.promos {
@@ -179,40 +60,20 @@ img.promos {
     width: 100%;
 }
 
-.redeSociales div {
-    float: right;
-}
-
 .menulateral ul li a{
     color: white;
     display: block;
     font-size: 14px; 
-  
-}
-
-.menulateral ul{
-    list-style-image: url(../img/listStyleMenuVertical.png);
 }
 
 .titulomenu{
-    height: 80px;
-    /* width: 140px; */
     background: url(../img/lineaMenuNavTop.png) bottom left repeat-x;
-    /* margin-top: 30px; */
-    /* color: white; */
-}
-
-.hojitasRojas img{
-    margin-top: 20px;
-    margin-left: 20px;
 }
 
 h5{
     font-size: 17px;
     color: white;
     font-weight: bold;
-    /* float: right; */
-    /* margin-right: 25px; */
 }
 
 .btn:hover{
@@ -220,50 +81,87 @@ h5{
     text-decoration: none;
 }
 
-.hojita{
-    
-margin-top: 10px;
-    
-/* float: left; */
-}
-
-.titmenulat{
-    margin-top: 40px;
-    margin-right: 10px;
-}
-
 .pajarito{
-   
-/* margin-bottom: -20px; */
-   
-/* padding-bottom: 30px; */
-   
-margin-top: -40px;
+    margin-top: -40px;
 }
 
 .firmaDominio p{
     color: white;
     float: right;
-    margin-left: 50px;
-}
-
-.firmaDominio img{
-    margin-left: 200px;
 }
 
 .piePagina p{
     color: white;
-    padding-top: -4px;
-    margin-top: auto;
 }
 
-.derechosReservados p{ 
-    margin-top: 50px;
+.red-icono{
+    width: 50px;
 }
 
+.menu{
+    margin-bottom: 15px;
+}
+
+ul li{
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #FABA03;
+}
+
+ul li a{
+	font-size:15px;	
+	font-weight:bold;
+	color:white;
+}
+
+ul li:hover{
+    background-color:orange;    
+}
+
+ul li a:hover{
+   text-decoration: none;
+    color: white;    
+}
+
+.navbar-default{
+	background-color: transparent;
+	border:none;
+}
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px){
+    
+    ul li{        
+        padding: 0px;
+    }
+    
+    .img-logo{
+        width: 165px;
+        height: 180px;
+    }
+    
+    .col-sm-9 {
+        width: 75%;
+    }
+    
+    .navbar-default .navbar-nav>li>a {
+        color: white;
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .redeSociales{
+        padding-right: 15px;
+    }
+    
+    .navbar-nav {
+        float: right;
+    }
+
     ul li{
         float: left;
     }
@@ -272,8 +170,6 @@ margin-top: -40px;
         width: 165px;
         height: 180px;
     }
-    
-    
 }
 
 /* Large Devices, Wide Screens */
@@ -287,27 +183,21 @@ margin-top: -40px;
         border-radius: 8px;
     }
 
-    .promociones{
-        margin-bottom: px;
-        overflow: hidden;
-        /* margin-top: 22px; */
-        margin-left: 2px;
-        margin-right: -20px;
-    }
-
     img.promos {
         border: #CCC solid 2px;
         float: left;
         margin-bottom: 10px;
         margin-right: 13px;
     }
-
-    
 }
 
 
 /* Medium Devices, Desktops */
 @media (min-width : 992px){
+    
+    ul{
+        float: right;
+    }
     
     .tituloTwitter{
         width: 171px;
@@ -325,7 +215,6 @@ margin-top: -40px;
         background: #FFF;
         padding-bottom: 10px;
         min-width: 500px;
-        //margin-right: 20px;
         margin-top: 30px;
         border-radius: 8px;
     }
@@ -345,12 +234,67 @@ margin-top: -40px;
     .direccion{
         margin-right: 150px;
     }
-    
-    
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px){
+    
+    ul li{
+        float: none;
+	list-style:none;	
+        width: 100%;
+    }
+    
+    .navbar-nav {
+        margin: 0px;
+    }
+    
+    #barra ul li a {
+        padding: 0 10px;
+        display: inline;
+        font-weight: bold;
+        font-size: 20px;
+        color: white !important;
+        border-right: none;       
+    }
+    
+    .navbar-collapse
+    {
+        overflow:hidden; 
+        width: 100%;
+        border-top: 1px solid transparent;
+        border-color: transparent !important;
+    }
+
+    .vertical-list div img{
+        margin-top: 10px;
+    }
+    
+    .img-logo{
+        width: 150px;
+    }   
+	
+    .navbar-default{
+        background-color: transparent;
+        border:none;
+    }
+
+    .red-icono{
+        width: 50px;		
+        float: right;		
+        margin-right: 15px;
+        padding-top:8px;
+        padding-bottom:30px;
+    }
+
+    .icon-bar{
+        width:auto !important;
+    }
+
+    .navbar-toggle{
+        width:50px;
+        height:50px;
+    }
     
     .btnLateral {
         font-size: 20px;
@@ -386,7 +330,6 @@ margin-top: -40px;
         margin-right: 20px;
         margin-top: 30px;
         border-radius: 8px;
-        /* align-content: center; */
     }
     
     .titulomenu {
@@ -424,30 +367,29 @@ margin-top: -40px;
     
     .img-logo{
         width: 150px;
-        //height: 180px;
     }   
 	
-	.navbar-default{
-		background-color: transparent;
-		border:none;
-	}
-	
-	.red-icono{
-		width: 50px;		
-		float: right;		
-		margin-right: 15px;
-		padding-top:8px;
-		padding-bottom:30px;
-	}
-	
-	.icon-bar{
-		width:auto !important;
-	}
-	
-	.navbar-toggle{
-		width:50px;
-		height:50px;
-	}
+    .navbar-default{
+            background-color: transparent;
+            border:none;
+    }
+
+    .red-icono{
+            width: 50px;		
+            float: right;		
+            margin-right: 15px;
+            padding-top:8px;
+            padding-bottom:30px;
+    }
+
+    .icon-bar{
+            width:auto !important;
+    }
+
+    .navbar-toggle{
+            width:50px;
+            height:50px;
+    }
 }
 
 
@@ -460,7 +402,6 @@ margin-top: -40px;
 
 @media (min-width: 768px){
     
-    
     .lateral{
         margin-right: 20px;
     }
@@ -472,12 +413,7 @@ margin-top: -40px;
     
     .contenidoImg {
         background: #FFF;
-        //padding-bottom: 10px;
-        //width: 350px;
-        //margin-right: 20px;
-        //margin-top: 30px;
         border-radius: 8px;
-        //margin-left: 100px;
     }
     
     img.promos {
@@ -487,6 +423,7 @@ margin-top: -40px;
         margin-right: 13px;
         height: 280px;
     }
+    
     .firmaDominio p {
         color: white;
         margin-top: 30px;
@@ -509,5 +446,11 @@ margin-top: -40px;
         padding-top: -4px;
         margin-top: auto;
     }
-    
 }
+
+@media only screen and (max-width : 480px){
+    .icon-redes{
+        display: none;
+    }
+}
+ 
