@@ -53,8 +53,8 @@ ul li a:hover{
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px){
-    ul li{
-        float: left;
+    ul li{        
+        padding: 0px;
     }
     
     .img-logo{
@@ -62,8 +62,24 @@ ul li a:hover{
         height: 180px;
     }
     
-    .navbar-collapse{        
-        width: 100%;
+    .col-sm-9 {
+        width: 75%;
+    }
+    
+    .navbar-default .navbar-nav>li>a {
+        color: white;
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .redeSociales{
+        padding-right: 15px;
+    }
+    
+    .navbar-nav {
+        float: right;
     }
 }
 
@@ -73,8 +89,8 @@ ul li a:hover{
         float: right;
     }
     ul li{
-        padding-left: 8px;
-        padding-right: 8px;
+        //padding-left: 8px;
+        //padding-right: 8px;
     }   
   
 }
@@ -137,25 +153,25 @@ ul li a:hover{
     }   
 	
     .navbar-default{
-            background-color: transparent;
-            border:none;
+        background-color: transparent;
+        border:none;
     }
 
     .red-icono{
-            width: 50px;		
-            float: right;		
-            margin-right: 15px;
-            padding-top:8px;
-            padding-bottom:30px;
+        width: 50px;		
+        float: right;		
+        margin-right: 15px;
+        padding-top:8px;
+        padding-bottom:30px;
     }
 
     .icon-bar{
-            width:auto !important;
+        width:auto !important;
     }
 
     .navbar-toggle{
-            width:50px;
-            height:50px;
+        width:50px;
+        height:50px;
     }
     
     .menu{
