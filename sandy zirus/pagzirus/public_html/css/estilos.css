@@ -308,19 +308,45 @@ margin-top: -40px;
 
 /* Medium Devices, Desktops */
 @media (min-width : 992px){
+    
+    .tituloTwitter{
+        width: 171px;
+    }
+    
+    .twiter{
+        margin-top: 25px;
+    }
+    
+    .espacioTwiter{
+        height: 230px;
+    }
 
     .contenidoImg {
         background: #FFF;
         padding-bottom: 10px;
         min-width: 500px;
-        margin-right: 20px;
+        //margin-right: 20px;
         margin-top: 30px;
         border-radius: 8px;
     }
     
-    .contenidoImg img{
-    margin-left: 10px;
+    .telefonos{
+        margin-right: 200px;
     }
+    
+    .derechosReservados{
+        margin-top: 40px;
+    }
+    
+    .imgTel{
+        margin-left: 90px;
+    }
+    
+    .direccion{
+        margin-right: 150px;
+    }
+    
+    
 }
 
 /* Small Devices, Tablets */
@@ -434,6 +460,15 @@ margin-top: -40px;
 
 @media (min-width: 768px){
     
+    
+    .lateral{
+        margin-right: 20px;
+    }
+    
+    .menulateral ul li{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
     
     .contenidoImg {
         background: #FFF;
