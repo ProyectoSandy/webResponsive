@@ -23,6 +23,8 @@ ul li{
 
 .infoDireccion{
     background: url(../img/fondoTelTop.png) top center no-repeat;
+    margin-right: 150px;
+    margin-top: 30px;
 }
 
 .espacioTwiter{
@@ -224,7 +226,8 @@ ul li a:hover{
     }
     
     .derechosReservados{
-        margin-top: 40px;
+        margin-top: 10px;
+        margin-left: 30px;
     }
     
     .imgTel{
@@ -233,6 +236,17 @@ ul li a:hover{
     
     .direccion{
         margin-right: 150px;
+    }
+    
+    .firmaDominio p {
+        color: white;
+        margin-right: -20px;
+    }
+    
+    .infoDireccion{
+        background: url(../img/fondoTelTop.png) top center no-repeat;
+        margin-right: 250px;
+        margin-top: 70px;
     }
 }
 
