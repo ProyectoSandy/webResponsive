@@ -22,7 +22,7 @@ ul li{
 
 .infoDireccion{
     background: url(../img/fondoTelTop.png) top center no-repeat;
-    margin-right: 150px;
+    margin-right: 260px;
     margin-top: 30px;
 }
 
@@ -127,135 +127,18 @@ ul li a:hover{
 .fondo-naranja li:hover{
     background-color: orange;
 }
-    
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px){
-    
-    .menulateral ul{
-        padding: 0px;        
-    }
 
-    .menuarriba ul li{
-        padding: 0px;           
-    } 
 
-    ul li{        
-        padding: 0px;
-    }
-    
-    .img-logo{
-        width: 165px;
-        height: 180px;
-    }
-    
-    .col-sm-9 {
-        width: 75%;
-    }
-    
-    .navbar-default .navbar-nav>li>a {
-        color: white;
-        padding-right: 5px;
-        padding-left: 5px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    
-    .redeSociales{
-        padding-right: 15px;
-    }
-    
-    .navbar-nav {
-        float: right;
-    }
-
-    .menulateral ul li{
+@media(max-width:650px)
+{
+    div.vertical-list{
         float: none;
-        list-style: none;
-    }
-    
-    ul li{
-        float: left;
-    }
-    
-    .img-logo{
-        width: 165px;
-        height: 180px;
     }
 }
 
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px){
-
-    .contenidoImg{
-        background: #FFF;
-        padding-bottom: 10px;
-        width: 691px;
-        margin-right: 20px;
-        border-radius: 8px;
-    }
-
-    img.promos {
-        border: #CCC solid 2px;
-        float: left;
-        margin-bottom: 10px;
-        margin-right: 13px;
-    }
-}
-
-
-/* Medium Devices, Desktops */
-@media (min-width : 992px){
-    
-    ul{
-        float: right;
-    }
-    
-    .tituloTwitter{
-        width: 171px;
-    }
-    
-    .twiter{
-        margin-top: 25px;
-    }
-    
-    .espacioTwiter{
-        height: 230px;
-    }
-
-    .contenidoImg {
-        background: #FFF;
-        padding-bottom: 10px;
-        min-width: 500px;
-        margin-top: 30px;
-        border-radius: 8px;
-    }
-    
-    .telefonos{
-        margin-right: 200px;
-    }
-    
-    .derechosReservados{
-        margin-top: 10px;
-        margin-left: 30px;
-    }
-    
-    .imgTel{
-        margin-left: 90px;
-    }
-    
-    .direccion{
-        margin-right: 150px;
-    }
-    
-    .firmaDominio p {
-        color: white;
-        margin-right: -20px;
-    }
-    
-    .infoDireccion{
-        background: url(../img/fondoTelTop.png) top center no-repeat;
-        margin-right: 250px;
-        margin-top: 70px;
+@media only screen and (max-width : 480px){
+    .icon-redes{
+        display: none;
     }
 }
 
@@ -426,15 +309,9 @@ ul li a:hover{
     }
 }
 
-
-@media(max-width:650px)
-{
-    div.vertical-list{
-        float: none;
-    }
-}
-
-@media (min-width: 768px){
+    
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px){
     
     .fondoBaner img{
         margin: 0px;
@@ -452,6 +329,7 @@ ul li a:hover{
     .contenidoImg {
         background: #FFF;
         border-radius: 8px;
+        margin-left: 15px;
     }
     
     img.promos {
@@ -490,11 +368,151 @@ ul li a:hover{
     }
     
     
-}
+    .menulateral ul{
+        padding: 0px;        
+    }
 
-@media only screen and (max-width : 480px){
-    .icon-redes{
-        display: none;
+    .menuarriba ul li{
+        padding: 0px;           
+    } 
+
+    ul li{        
+        padding: 0px;
+    }
+    
+    .img-logo{
+        width: 165px;
+        height: 180px;
+    }
+    
+    .col-sm-9 {
+        width: 75%;
+    }
+    
+    .navbar-default .navbar-nav>li>a {
+        color: white;
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .redeSociales{
+        padding-right: 15px;
+    }
+    
+    .navbar-nav {
+        float: right;
+    }
+
+    .menulateral ul li{
+        float: none;
+        list-style: none;
+    }
+    
+    ul li{
+        float: left;
+    }
+    
+    .img-logo{
+        width: 165px;
+        height: 180px;
     }
 }
+
+/* Medium Devices, Desktops */
+@media (min-width : 992px){
+    
+    ul{
+        float: right;
+    }
+    
+    .tituloTwitter{
+        width: 171px;
+    }
+    
+    .twiter {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    
+    .espacioTwiter{
+        height: 230px;
+    }
+
+    .contenidoImg {
+        background: #FFF;
+        padding-bottom: 10px;
+        min-width: 500px;
+        margin-top: 30px;
+        border-radius: 8px;
+    }
+    
+    .telefonos{
+        margin-right: 50px;
+    }
+    
+    .derechosReservados{
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    
+    .imgTel{
+        margin-left: 90px;
+    }
+    
+    .direccion{
+        margin-right: 150px;
+    }
+    
+    .firmaDominio p {
+        color: white;
+        margin-right: -20px;
+        margin-top: 70px;
+    }
+    
+    .infoDireccion{
+        background: url(../img/fondoTelTop.png) top center no-repeat;
+        margin-right: 250px;
+        margin-top: 70px;
+    }
+}
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px){
+
+    .contenidoImg{
+        width: 691px;
+    }
+
+    img.promos {
+        border: #CCC solid 2px;
+        float: left;
+        margin-bottom: 10px;
+        margin-right: 13px;
+    }
+    
+    .infoDireccion{
+        margin-right: 360px;
+    }
+    
+    .titulomenu img{
+        margin-top: 10px;
+    }
+    
+    .twiter {
+        margin-top: 0px;
+    }
+    
+    .tituloTwitter{
+        width: 212px;
+    }
+    
+    .espacioTwiter{
+        height: 290px;
+    }
+}
+
  
