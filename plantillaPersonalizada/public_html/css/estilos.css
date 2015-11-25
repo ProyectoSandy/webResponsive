@@ -1,0 +1,12 @@
+ul li{
+    float: left;
+    list-style: none;
+}
+
+.menuPrincipal ul li a{
+    margin-left: 30px;
+    color: #262626;
+    font: menu;
+    font-weight: bold;
+    font-size: 15px;
+}
