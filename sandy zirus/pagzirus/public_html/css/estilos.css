@@ -8,6 +8,9 @@ body{
     font-weight: bold;
     font-size: 13px;
     float: right;
+    padding-top: 8px;
+    margin-bottom: 0px;
+     
 }
 
 .imgTel{
